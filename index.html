@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Joshua Cole is a final-year computer science student in Lagos building accessible, human-centred web experiences. Explore his projects, skills, and academic planner.">
+  <meta name="theme-color" content="#f5efe4">
+  <meta property="og:title" content="Joshua Cole — Student Portfolio">
+  <meta property="og:description" content="Computer science student, interface tinkerer, and careful listener. Welcome to my corner of the web.">
+  <meta property="og:type" content="website">
+  <title>Joshua Cole — Student Portfolio</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Joshua Cole — home">
+        <span class="brand-mark" aria-hidden="true">JC</span>
+        <span class="brand-text">
+          <strong>Joshua Cole</strong>
+          <span>CS Undergraduate</span>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" id="primary-nav" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="planner.html">Planner</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="hero-status"><span class="status-dot" aria-hidden="true"></span> Open to Summer 2027 internships</p>
+            <h1 class="hero-title" id="hero-title">Joshua <em>Cole</em><span class="title-dot">.</span></h1>
+            <p class="hero-tagline">Computer science student, interface tinkerer, and careful listener.</p>
+            <p class="hero-lede">Welcome to my corner of the web. I'm a final-year Computer Science student at the University of Lagos, building accessible, human-centred products for the browser — from study planners to the small details people never notice.</p>
+            <div class="hero-actions">
+              <a class="btn btn--primary" href="projects.html">
+                Explore my work
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+              <a class="btn btn--outline" href="contact.html">Get in touch</a>
+            </div>
+            <p class="hero-meta">
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                Lagos, Nigeria
+              </span>
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10 12 5 2 10l10 5 10-5Z"/><path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"/><path d="M22 10v6"/></svg>
+                B.Sc. Computer Science · 2027
+              </span>
+            </p>
+          </div>
+
+          <div class="portrait">
+            <span class="portrait-badge">Class of 2027</span>
+            <div class="portrait-frame">
+              <img src="assets/portrait.jpg" alt="Portrait of Joshua Cole wearing a grey sweater against a soft blue background" width="1000" height="1500" fetchpriority="high">
+              <div class="portrait-caption">
+                <strong>Joshua Cole</strong>
+                <span>Lagos, NG</span>
+              </div>
+            </div>
+            <div class="portrait-note">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              <span>Currently building<br><strong>StudySync</strong></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-value">4.62 <span style="font-size:0.5em;font-family:var(--font-mono);color:var(--ink-muted)">/ 5.00</span></span>
+            <span class="stat-label">Cumulative GPA across five semesters</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">12</span>
+            <span class="stat-label">Projects designed, built and shipped</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">2027</span>
+            <span class="stat-label">Expected graduation, B.Sc. Computer Science</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="statement" aria-hidden="true">
+      <div class="statement-inner">
+        <div class="statement-track">
+          <span>Accessible by default</span><i></i>
+          <span>Design with intent</span><i></i>
+          <span>Learn in public</span><i></i>
+          <span>Ship the small details</span><i></i>
+          <span>Curiosity over comfort</span><i></i>
+        </div>
+        <div class="statement-track">
+          <span>Accessible by default</span><i></i>
+          <span>Design with intent</span><i></i>
+          <span>Learn in public</span><i></i>
+          <span>Ship the small details</span><i></i>
+          <span>Curiosity over comfort</span><i></i>
+        </div>
+      </div>
+    </div>
+
+    <section class="section" aria-labelledby="focus-title">
+      <div class="container">
+        <div class="section-head section-head--split">
+          <div>
+            <p class="eyebrow">What I do</p>
+            <h2 class="section-title" id="focus-title">I turn tangled ideas into <em>calm interfaces.</em></h2>
+          </div>
+          <p class="section-head__side">My sweet spot is where engineering discipline meets editorial design: clear structure, honest copy, and interactions that never make people stop and wonder what to click.</p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <span class="service-num" aria-hidden="true">01</span>
+            <span class="service-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </span>
+            <h3>Interface engineering</h3>
+            <p>Semantic HTML, modern CSS, and vanilla JavaScript that behaves just as well on a flagship phone as it does on a five-year-old laptop.</p>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS Grid</li>
+              <li>JavaScript</li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <span class="service-num" aria-hidden="true">02</span>
+            <span class="service-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
+            </span>
+            <h3>Design systems</h3>
+            <p>Reusable type scales, colour tokens, and components that keep a product coherent without sanding off its personality.</p>
+            <ul>
+              <li>Figma</li>
+              <li>Design tokens</li>
+              <li>Documentation</li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <span class="service-num" aria-hidden="true">03</span>
+            <span class="service-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5" r="2"/><path d="M12 7v6"/><path d="m9 21 3-8 3 8"/><path d="M6 10h12"/></svg>
+            </span>
+            <h3>Accessible experiences</h3>
+            <p>Keyboard paths, sensible focus states, and readable contrast. Accessibility is a design constraint, not a clean-up task.</p>
+            <ul>
+              <li>WCAG 2.2</li>
+              <li>ARIA</li>
+              <li>Usability testing</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--flush-top" aria-labelledby="work-title">
+      <div class="container">
+        <div class="section-head section-head--split">
+          <div>
+            <p class="eyebrow">Selected work</p>
+            <h2 class="section-title" id="work-title">A few things I've built <em>lately.</em></h2>
+          </div>
+          <div class="section-head__side">
+            <p>Every project starts with a real annoyance — a missed deadline, a confusing timetable, a spreadsheet that should not exist.</p>
+            <a class="section-link" href="projects.html">
+              View all projects
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="work-preview">
+          <article class="work-card work-card--wide">
+            <div class="work-card-media">
+              <img src="assets/project-studysync.svg" alt="StudySync dashboard with a weekly progress ring and a list of academic tasks" width="1200" height="780" loading="lazy">
+            </div>
+            <div class="work-card-body">
+              <div class="work-card-meta">
+                <span>Academic planner · 2026</span>
+                <span class="work-card-arrow" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M7 7h10v10"/></svg>
+                </span>
+              </div>
+              <h3>StudySync</h3>
+              <p>A calm, keyboard-friendly study planner that turns a messy semester into a realistic weekly plan. The interactive planner on this site is its live prototype.</p>
+            </div>
+            <a class="work-card-link" href="projects.html#studysync" aria-label="View the StudySync project"></a>
+          </article>
+
+          <article class="work-card">
+            <div class="work-card-media">
+              <img src="assets/project-campus.svg" alt="Campus Lens event discovery page with a featured purple event card and upcoming events" width="1200" height="780" loading="lazy">
+            </div>
+            <div class="work-card-body">
+              <div class="work-card-meta">
+                <span>Event discovery · 2026</span>
+                <span class="work-card-arrow" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M7 7h10v10"/></svg>
+                </span>
+              </div>
+              <h3>Campus Lens</h3>
+              <p>A mobile-first campus events hub that helps students find talks, gigs, and clubs without the doom-scrolling.</p>
+            </div>
+            <a class="work-card-link" href="projects.html#campus-lens" aria-label="View the Campus Lens project"></a>
+          </article>
+
+          <article class="work-card">
+            <div class="work-card-media">
+              <img src="assets/project-ledger.svg" alt="Ledger finance dashboard showing a balance, cash flow chart, and spending categories" width="1200" height="780" loading="lazy">
+            </div>
+            <div class="work-card-body">
+              <div class="work-card-meta">
+                <span>Personal finance · 2025</span>
+                <span class="work-card-arrow" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M7 7h10v10"/></svg>
+                </span>
+              </div>
+              <h3>Ledger</h3>
+              <p>A privacy-first spending tracker that makes budgeting feel less like a spreadsheet and more like a quiet morning ritual.</p>
+            </div>
+            <a class="work-card-link" href="projects.html#ledger" aria-label="View the Ledger project"></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--flush-top" aria-labelledby="about-preview-title">
+      <div class="container about-preview">
+        <div>
+          <p class="eyebrow">A little context</p>
+          <h2 class="section-title" id="about-preview-title">Curiosity, consistency, and a lot of <em>coffee.</em></h2>
+          <p class="lede" style="margin-top: 1.25rem;">I grew up taking apart radios and rebuilding the family computer. These days I take apart interfaces. The goal is the same: understand how the pieces fit, then leave things a little easier to use than I found them.</p>
+          <div class="hero-actions">
+            <a class="btn btn--outline" href="about.html">
+              More about me
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <figure class="about-preview-quote">
+            <blockquote>“Good software should feel like a well-organised desk: everything you need, exactly where you left it.”</blockquote>
+            <figcaption>How I think about design</figcaption>
+          </figure>
+          <ul class="values-list">
+            <li><b>01</b><span>Clarity before cleverness — if it needs a manual, it needs another draft.</span></li>
+            <li><b>02</b><span>Access is not an add-on — it is the baseline every user deserves.</span></li>
+            <li><b>03</b><span>Craft lives in the details — empty states, error copy, and the first ten seconds.</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section listen-band" aria-labelledby="listen-title">
+      <div class="container listen-inner">
+        <div class="listen-copy">
+          <p class="eyebrow eyebrow--light">Audio introduction</p>
+          <h2 id="listen-title" style="margin-top: 1rem;">Prefer to <em>listen?</em></h2>
+          <p>Press play for a twenty-second hello — who I am, what I'm learning, and the kind of team I'd love to join next.</p>
+        </div>
+        <div class="listen-card">
+          <div class="listen-card-top">
+            <span class="listen-label">A quick hello from Joshua</span>
+            <span class="listen-time">00:22</span>
+          </div>
+          <div class="waveform" aria-hidden="true">
+            <span style="--h: 28%"></span><span style="--h: 56%"></span><span style="--h: 38%"></span><span style="--h: 82%"></span><span style="--h: 46%"></span><span style="--h: 70%"></span><span style="--h: 32%"></span><span style="--h: 92%"></span><span style="--h: 54%"></span><span style="--h: 76%"></span><span style="--h: 42%"></span><span style="--h: 64%"></span><span style="--h: 30%"></span><span style="--h: 88%"></span><span style="--h: 50%"></span><span style="--h: 72%"></span><span style="--h: 36%"></span><span style="--h: 60%"></span><span style="--h: 80%"></span><span style="--h: 44%"></span><span style="--h: 68%"></span><span style="--h: 34%"></span><span style="--h: 52%"></span><span style="--h: 24%"></span>
+          </div>
+          <audio controls preload="metadata" src="assets/intro.m4a">
+            Your browser does not support embedded audio. <a href="assets/intro.m4a">Download the introduction</a>.
+          </audio>
+          <details class="transcript">
+            <summary>Read the transcript</summary>
+            <p>Hi, I'm Joshua Cole, a final-year computer science student at the University of Lagos. I care about building thoughtful, accessible experiences for the web. Right now, I'm looking for a front-end engineering internship where I can learn from people who sweat the details. Thanks for stopping by. I hope you enjoy exploring my work.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="cta-title">
+      <div class="container">
+        <div class="cta-band">
+          <div class="cta-inner">
+            <div>
+              <p class="eyebrow">Next step</p>
+              <h2 id="cta-title" style="margin-top: 1rem;">Let's build something <em>worth using.</em></h2>
+              <p>I'm looking for an internship or junior role where thoughtful front-end work matters. If that sounds like your team, my inbox is open.</p>
+            </div>
+            <div class="cta-actions">
+              <a class="btn btn--primary" href="contact.html">
+                Start a conversation
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+              <a class="btn btn--outline" href="planner.html">Try the planner</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark" aria-hidden="true">JC</span>
+            <span>
+              <strong>Joshua Cole</strong>
+              <small>Student portfolio · CSC 106</small>
+            </span>
+          </a>
+          <p class="footer-blurb">A computer science student in Lagos, learning in public and building for the web with care.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer">
+          <h3 class="footer-heading">Explore</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="planner.html">Academic planner</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="footer-social">
+          <h3 class="footer-heading">Elsewhere</h3>
+          <ul>
+            <li>
+              <a href="https://github.com/joshuacole-dev" target="_blank" rel="noopener noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.26c0 4.55 2.87 8.4 6.84 9.76.5.1.68-.22.68-.49 0-.24-.01-.87-.01-1.7-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.5-1.11-1.5-.91-.63.07-.62.07-.62 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.36 1.12 2.94.86.09-.67.35-1.12.63-1.38-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05a9.4 9.4 0 0 1 5 0c1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.8-4.57 5.06.36.32.68.94.68 1.9 0 1.37-.01 2.48-.01 2.82 0 .27.18.6.69.49A10.26 10.26 0 0 0 22 12.26C22 6.58 17.52 2 12 2Z"/></svg>
+                GitHub
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/joshuacole-dev" target="_blank" rel="noopener noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.94 8.5H3.56V21h3.38V8.5ZM5.25 3a1.97 1.97 0 1 0 0 3.94 1.97 1.97 0 0 0 0-3.94ZM20.44 13.62c0-3.13-1.67-4.59-3.9-4.59-1.8 0-2.6.99-3.05 1.69V8.5H10.1c.04.95 0 12.5 0 12.5h3.39v-6.98c0-.3.02-.61.11-.83.24-.61.8-1.24 1.73-1.24 1.22 0 1.71.93 1.71 2.29V21h3.4v-7.38Z"/></svg>
+                LinkedIn
+              </a>
+            </li>
+            <li>
+              <a href="mailto:hello@joshuacole.dev">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 7L2 7"/></svg>
+                Email
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> Joshua Cole · CSC 106 student portfolio</span>
+        <span>Built with HTML, CSS &amp; vanilla JavaScript</span>
+        <a class="back-to-top" href="#main">
+          Back to top
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

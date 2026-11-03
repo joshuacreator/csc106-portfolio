@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" role="img" aria-labelledby="verseTitle verseDesc">
+  <title id="verseTitle">Verse poetry journal website screenshot</title>
+  <desc id="verseDesc">An editorial poetry website with a cream background, a large serif title, abstract artwork, and a poem excerpt.</desc>
+  <rect width="1200" height="780" fill="#d6cfbf"/>
+  <rect x="56" y="42" width="1088" height="704" rx="4" fill="#f4eee1"/>
+  <path d="M56 66a24 24 0 0 1 24-24h1040a24 24 0 0 1 24 24v34H56z" fill="#eee7d8"/>
+  <circle cx="88" cy="71" r="5" fill="#b65635"/>
+  <circle cx="106" cy="71" r="5" fill="#c8a964"/>
+  <circle cx="124" cy="71" r="5" fill="#7e8b72"/>
+
+  <text x="96" y="146" font-family="Georgia, serif" font-size="30" font-weight="700" fill="#1e1a15">Verse.</text>
+  <text x="96" y="166" font-family="Helvetica, Arial, sans-serif" font-size="9" letter-spacing="2" fill="#8a7f6d">A POETRY JOURNAL</text>
+  <text x="598" y="148" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#5f574b">Issue 04</text>
+  <text x="700" y="148" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#5f574b">Poems</text>
+  <text x="790" y="148" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#5f574b">Interviews</text>
+  <text x="900" y="148" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#5f574b">Archive</text>
+  <rect x="1002" y="128" width="110" height="30" rx="15" fill="#1e1a15"/>
+  <text x="1057" y="148" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" font-weight="700" fill="#f4eee1">Subscribe</text>
+
+  <line x1="96" y1="192" x2="1112" y2="192" stroke="#d9cebb"/>
+
+  <text x="96" y="248" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="2.2" fill="#b65635">FEATURED POET / LAGOS</text>
+  <text x="96" y="312" font-family="Georgia, serif" font-size="66" font-weight="700" fill="#1e1a15">A quiet place</text>
+  <text x="96" y="378" font-family="Georgia, serif" font-size="66" font-style="italic" fill="#b65635">for loud feelings.</text>
+  <text x="100" y="420" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#5f574b">New work from Joshua Cole, plus five poets writing toward the light.</text>
+
+  <rect x="96" y="462" width="470" height="226" fill="#e7dcc8"/>
+  <circle cx="292" cy="536" r="78" fill="#b65635"/>
+  <circle cx="330" cy="560" r="58" fill="#d9a84e" opacity=".9"/>
+  <path d="M240 688c8-66 48-112 100-112s92 46 100 112z" fill="#1e1a15"/>
+  <path d="M96 462h470v28H566z" fill="#1e1a15" opacity=".08"/>
+  <text x="112" y="672" font-family="Georgia, serif" font-size="16" font-style="italic" fill="#f4eee1">still life with morning light, no. 3</text>
+
+  <rect x="606" y="462" width="506" height="226" fill="#fbf7ee" stroke="#d9cebb"/>
+  <text x="636" y="500" font-family="Georgia, serif" font-size="16" font-style="italic" fill="#5f574b">from "A Field Guide to Staying"</text>
+  <text x="636" y="536" font-family="Georgia, serif" font-size="17" fill="#1e1a15">There is a door in me that opens</text>
+  <text x="636" y="562" font-family="Georgia, serif" font-size="17" fill="#1e1a15">only when the house is quiet.</text>
+  <text x="636" y="588" font-family="Georgia, serif" font-size="17" fill="#1e1a15">I keep the key behind my ribs,</text>
+  <text x="636" y="614" font-family="Georgia, serif" font-size="17" fill="#1e1a15">turned twice before the world wakes.</text>
+  <text x="636" y="648" font-family="Georgia, serif" font-size="17" fill="#1e1a15">Outside, the market starts its noise.</text>
+  <text x="636" y="674" font-family="Helvetica, Arial, sans-serif" font-size="10" letter-spacing="2" fill="#b65635">READ THE FULL POEM &#8594;</text>
+
+  <line x1="96" y1="710" x2="1112" y2="710" stroke="#d9cebb"/>
+  <text x="96" y="730" font-family="Helvetica, Arial, sans-serif" font-size="9" letter-spacing="1.6" fill="#8a7f6d">VOL. 04 / OCTOBER 2026</text>
+  <text x="1112" y="730" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="9" letter-spacing="1.6" fill="#8a7f6d">MADE FOR SLOW READING</text>
+</svg>

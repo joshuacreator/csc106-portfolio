@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Selected web projects by Joshua Cole — a study planner, campus events hub, personal finance dashboard, and poetry journal.">
+  <meta name="theme-color" content="#f5efe4">
+  <meta property="og:title" content="Projects — Joshua Cole">
+  <meta property="og:description" content="Four projects built with care, from a study planner to a poetry journal.">
+  <meta property="og:type" content="website">
+  <title>Projects — Joshua Cole</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Joshua Cole — home">
+        <span class="brand-mark" aria-hidden="true">JC</span>
+        <span class="brand-text">
+          <strong>Joshua Cole</strong>
+          <span>CS Undergraduate</span>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" id="primary-nav" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html" aria-current="page">Projects</a></li>
+          <li><a href="planner.html">Planner</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero" aria-labelledby="page-title">
+      <div class="container page-hero-inner">
+        <div class="page-hero-copy">
+          <p class="eyebrow">Selected projects / 02</p>
+          <h1 class="page-title" id="page-title">Work I'd happily <em>sign.</em></h1>
+          <p class="page-lede">Four projects, each built around a real annoyance. Some are polished, some are still in the workshop, and all of them taught me something the syllabus couldn't.</p>
+        </div>
+        <div class="page-hero-meta">
+          <span>4 selected projects</span>
+          <span>Design &amp; front-end</span>
+          <span>2024 — 2026</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="studysync-title">
+      <div class="container">
+        <article class="project-featured" id="studysync">
+          <div class="project-media">
+            <img src="assets/project-studysync.svg" alt="StudySync dashboard with a dark green sidebar, weekly progress ring, and a list of today's academic tasks" width="1200" height="780">
+          </div>
+          <div class="project-info">
+            <p class="eyebrow">Featured project · 01</p>
+            <h2 id="studysync-title">Study<em>Sync</em></h2>
+            <p class="project-subtitle">A quieter way to plan a semester.</p>
+            <p class="project-description">Most study planners try to do everything. StudySync does four things well: capture a task, give it a deadline, show what's overdue, and get out of the way. The goal was a planner that felt more like a calm desk than a project management dashboard.</p>
+            <ul class="feature-list">
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.5 2.5 2.5 5-5"/></svg>
+                Create, complete, filter, and delete tasks without a page reload.
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.5 2.5 2.5 5-5"/></svg>
+                Everything persists in localStorage, so a refresh never costs a thought.
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.5 2.5 2.5 5-5"/></svg>
+                Keyboard-first controls, live announcements, and reduced-motion support.
+              </li>
+            </ul>
+            <ul class="tech-list" aria-label="Technologies used">
+              <li>HTML5</li>
+              <li>CSS Grid</li>
+              <li>JavaScript</li>
+              <li>localStorage</li>
+            </ul>
+            <div class="project-actions">
+              <a class="btn btn--primary" href="planner.html">
+                Try the live planner
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+              <a class="btn btn--outline" href="https://github.com/joshuacole-dev/studysync" target="_blank" rel="noopener noreferrer">
+                View code
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <div class="section-head section-head--split" style="margin-top: 1rem;">
+          <div>
+            <p class="eyebrow">More work</p>
+            <h2 class="section-title">The rest of the <em>shelf.</em></h2>
+          </div>
+          <p class="section-head__side">Different problems, same approach: reduce the noise, respect the user's time, and make the happy path obvious.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card" id="campus-lens">
+            <div class="project-card-media">
+              <img src="assets/project-campus.svg" alt="Campus Lens event discovery app showing a featured design talk and upcoming campus events" width="1200" height="780" loading="lazy">
+            </div>
+            <div class="project-card-body">
+              <div class="project-index"><span>02 / 04</span><span>Event discovery</span></div>
+              <h3>Campus Lens</h3>
+              <p>A mobile-first events hub for university campuses. Students can discover talks, gigs, and club meetings by date, venue, or mood — without hunting through five different group chats.</p>
+              <ul class="tech-list" aria-label="Technologies used">
+                <li>JavaScript</li>
+                <li>REST APIs</li>
+                <li>CSS Grid</li>
+              </ul>
+              <div class="project-card-footer">
+                <a href="https://campus-lens.joshuacole.dev" target="_blank" rel="noopener noreferrer">
+                  Live demo
+                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+                </a>
+                <a href="https://github.com/joshuacole-dev/campus-lens" target="_blank" rel="noopener noreferrer">
+                  Repository
+                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" id="ledger">
+            <div class="project-card-media">
+              <img src="assets/project-ledger.svg" alt="Ledger finance dashboard in dark mode with a balance, cash flow graph, and spending breakdown" width="1200" height="780" loading="lazy">
+            </div>
+            <div class="project-card-body">
+              <div class="project-index"><span>03 / 04</span><span>Personal finance</span></div>
+              <h3>Ledger</h3>
+              <p>A privacy-first spending tracker for students. No accounts, no bank connections, no dark patterns — just a fast way to see where the allowance went and how much month is left.</p>
+              <ul class="tech-list" aria-label="Technologies used">
+                <li>React</li>
+                <li>Vite</li>
+                <li>IndexedDB</li>
+              </ul>
+              <div class="project-card-footer">
+                <a href="https://ledger.joshuacole.dev" target="_blank" rel="noopener noreferrer">
+                  Live demo
+                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+                </a>
+                <a href="https://github.com/joshuacole-dev/ledger" target="_blank" rel="noopener noreferrer">
+                  Repository
+                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" id="verse">
+            <div class="project-card-media">
+              <img src="assets/project-verse.svg" alt="Verse poetry journal homepage with a large serif headline, abstract artwork, and a poem excerpt" width="1200" height="780" loading="lazy">
+            </div>
+            <div class="project-card-body">
+              <div class="project-index"><span>04 / 04</span><span>Editorial</span></div>
+              <h3>Verse</h3>
+              <p>An independent poetry journal built for slow reading. The brief was simple: make the words the loudest thing on the page, then make everything else disappear.</p>
+              <ul class="tech-list" aria-label="Technologies used">
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+              <div class="project-card-footer">
+                <a href="https://verse.joshuacole.dev" target="_blank" rel="noopener noreferrer">
+                  Live demo
+                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+                </a>
+                <a href="https://github.com/joshuacole-dev/verse" target="_blank" rel="noopener noreferrer">
+                  Repository
+                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--flush-top" aria-labelledby="process-title">
+      <div class="container">
+        <div class="section-head section-head--split">
+          <div>
+            <p class="eyebrow">How I work</p>
+            <h2 class="section-title" id="process-title">A small, repeatable <em>process.</em></h2>
+          </div>
+          <p class="section-head__side">No secret formula. Just a loop I trust: ask, sketch, build, test, then trim the parts nobody needed.</p>
+        </div>
+        <div class="process-grid">
+          <div class="process-step">
+            <span>01</span>
+            <h3>Ask better questions</h3>
+            <p>Who is this for, what are they actually trying to finish, and what would make them abandon it? The answers usually reshape the brief.</p>
+          </div>
+          <div class="process-step">
+            <span>02</span>
+            <h3>Sketch in the browser</h3>
+            <p>I prototype with real content and real constraints early. A rough page in HTML teaches me more than a perfect rectangle in a design file.</p>
+          </div>
+          <div class="process-step">
+            <span>03</span>
+            <h3>Test with real hands</h3>
+            <p>Keyboard, small screens, slow connections, and at least two people who are not me. Then I fix what the testing exposes — not just what looks good.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--flush-top" aria-labelledby="projects-cta-title">
+      <div class="container">
+        <div class="cta-band">
+          <div class="cta-inner">
+            <div>
+              <p class="eyebrow">Have a problem worth solving?</p>
+              <h2 id="projects-cta-title" style="margin-top: 1rem;">Let's put something <em>useful</em> on the internet.</h2>
+              <p>I'm open to internships, freelance front-end work, and collaborations that value craft over volume.</p>
+            </div>
+            <div class="cta-actions">
+              <a class="btn btn--primary" href="contact.html">
+                Get in touch
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+              <a class="btn btn--outline" href="about.html">More about me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <span class="brand-mark" aria-hidden="true">JC</span>
+            <span>
+              <strong>Joshua Cole</strong>
+              <small>Student portfolio · CSC 106</small>
+            </span>
+          </a>
+          <p class="footer-blurb">A computer science student in Lagos, learning in public and building for the web with care.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer">
+          <h3 class="footer-heading">Explore</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="planner.html">Academic planner</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="footer-social">
+          <h3 class="footer-heading">Elsewhere</h3>
+          <ul>
+            <li>
+              <a href="https://github.com/joshuacole-dev" target="_blank" rel="noopener noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.26c0 4.55 2.87 8.4 6.84 9.76.5.1.68-.22.68-.49 0-.24-.01-.87-.01-1.7-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.5-1.11-1.5-.91-.63.07-.62.07-.62 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.36 1.12 2.94.86.09-.67.35-1.12.63-1.38-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05a9.4 9.4 0 0 1 5 0c1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.8-4.57 5.06.36.32.68.94.68 1.9 0 1.37-.01 2.48-.01 2.82 0 .27.18.6.69.49A10.26 10.26 0 0 0 22 12.26C22 6.58 17.52 2 12 2Z"/></svg>
+                GitHub
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/joshuacole-dev" target="_blank" rel="noopener noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.94 8.5H3.56V21h3.38V8.5ZM5.25 3a1.97 1.97 0 1 0 0 3.94 1.97 1.97 0 0 0 0-3.94ZM20.44 13.62c0-3.13-1.67-4.59-3.9-4.59-1.8 0-2.6.99-3.05 1.69V8.5H10.1c.04.95 0 12.5 0 12.5h3.39v-6.98c0-.3.02-.61.11-.83.24-.61.8-1.24 1.73-1.24 1.22 0 1.71.93 1.71 2.29V21h3.4v-7.38Z"/></svg>
+                LinkedIn
+              </a>
+            </li>
+            <li>
+              <a href="mailto:hello@joshuacole.dev">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 7L2 7"/></svg>
+                Email
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> Joshua Cole · CSC 106 student portfolio</span>
+        <span>Built with HTML, CSS &amp; vanilla JavaScript</span>
+        <a class="back-to-top" href="#main">
+          Back to top
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

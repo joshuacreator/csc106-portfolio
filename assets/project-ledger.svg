@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" role="img" aria-labelledby="ledgerTitle ledgerDesc">
+  <title id="ledgerTitle">Ledger personal finance dashboard screenshot</title>
+  <desc id="ledgerDesc">A dark finance dashboard showing a monthly balance, spending chart, category breakdown, and recent transactions.</desc>
+  <rect width="1200" height="780" fill="#c9c6be"/>
+  <rect x="56" y="42" width="1088" height="704" rx="22" fill="#0f1713"/>
+  <path d="M56 64a22 22 0 0 1 22-22h1044a22 22 0 0 1 22 22v38H56z" fill="#16201a"/>
+  <circle cx="86" cy="71" r="6" fill="#c05a32"/>
+  <circle cx="106" cy="71" r="6" fill="#d9b46a"/>
+  <circle cx="126" cy="71" r="6" fill="#7c967f"/>
+
+  <rect x="56" y="102" width="220" height="644" fill="#111b15"/>
+  <circle cx="94" cy="146" r="15" fill="#a9e2be"/>
+  <path d="M87 146h14M94 139v14" stroke="#0f1713" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="120" y="153" font-family="Georgia, serif" font-size="22" font-weight="700" fill="#edf3ec">Ledger</text>
+  <rect x="78" y="198" width="176" height="44" rx="10" fill="#1d2c23"/>
+  <rect x="94" y="212" width="12" height="12" rx="3" fill="none" stroke="#a9e2be" stroke-width="2"/>
+  <text x="118" y="225" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#e6eee7">Overview</text>
+  <text x="118" y="282" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#7d9183">Transactions</text>
+  <text x="118" y="326" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#7d9183">Budgets</text>
+  <text x="118" y="370" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#7d9183">Savings goals</text>
+  <text x="118" y="414" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#7d9183">Reports</text>
+  <rect x="78" y="626" width="176" height="1" fill="#24352b"/>
+  <circle cx="94" cy="660" r="14" fill="#2d4437"/>
+  <text x="94" y="665" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" font-weight="700" fill="#a9e2be">JC</text>
+  <text x="118" y="658" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#e6eee7">Joshua Cole</text>
+  <text x="118" y="674" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#7d9183">Personal account</text>
+
+  <text x="312" y="158" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="2" fill="#7d9183">OCTOBER 2026</text>
+  <text x="312" y="192" font-family="Georgia, serif" font-size="28" font-weight="700" fill="#edf3ec">Good evening, Joshua.</text>
+  <rect x="1010" y="136" width="102" height="36" rx="18" fill="#1d2c23" stroke="#2d4437"/>
+  <text x="1061" y="159" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#a9e2be">+ Add</text>
+
+  <text x="312" y="252" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#7d9183">Total balance</text>
+  <text x="312" y="294" font-family="Georgia, serif" font-size="42" font-weight="700" fill="#edf3ec">&#8358;248,500.00</text>
+  <rect x="312" y="312" width="70" height="24" rx="12" fill="#1c3829"/>
+  <text x="347" y="328" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" font-weight="700" fill="#a9e2be">+12.4%</text>
+  <text x="390" y="328" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#7d9183">vs. last month</text>
+
+  <rect x="312" y="358" width="520" height="238" rx="16" fill="#15211a"/>
+  <text x="334" y="390" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#edf3ec">Cash flow</text>
+  <rect x="680" y="374" width="64" height="22" rx="11" fill="#1d2c23"/>
+  <text x="712" y="389" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="700" fill="#a9e2be">6 months</text>
+  <g stroke="#223128" stroke-width="1">
+    <line x1="334" y1="428" x2="810" y2="428"/>
+    <line x1="334" y1="470" x2="810" y2="470"/>
+    <line x1="334" y1="512" x2="810" y2="512"/>
+    <line x1="334" y1="554" x2="810" y2="554"/>
+  </g>
+  <path d="M334 540 L414 508 L494 520 L574 468 L654 486 L734 430 L810 444 L810 566 L334 566 Z" fill="#a9e2be" opacity=".09"/>
+  <path d="M334 540 L414 508 L494 520 L574 468 L654 486 L734 430 L810 444" fill="none" stroke="#a9e2be" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="734" cy="430" r="5" fill="#a9e2be"/>
+  <rect x="700" y="398" width="66" height="24" rx="8" fill="#a9e2be"/>
+  <text x="733" y="414" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" font-weight="700" fill="#0f1713">&#8358;64.2k</text>
+  <g font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#627567" text-anchor="middle">
+    <text x="334" y="586">May</text>
+    <text x="429" y="586">Jun</text>
+    <text x="524" y="586">Jul</text>
+    <text x="619" y="586">Aug</text>
+    <text x="714" y="586">Sep</text>
+    <text x="809" y="586">Oct</text>
+  </g>
+
+  <rect x="852" y="358" width="260" height="238" rx="16" fill="#15211a"/>
+  <text x="874" y="390" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#edf3ec">Spending</text>
+  <circle cx="982" cy="466" r="52" fill="none" stroke="#223128" stroke-width="18"/>
+  <path d="M982 414a52 52 0 0 1 48 72" fill="none" stroke="#ff9b76" stroke-width="18"/>
+  <path d="M1030 486a52 52 0 0 1-44 31" fill="none" stroke="#a9e2be" stroke-width="18"/>
+  <text x="982" y="463" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="700" fill="#edf3ec">&#8358;82k</text>
+  <text x="982" y="482" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#7d9183">this month</text>
+  <rect x="874" y="542" width="9" height="9" rx="2" fill="#ff9b76"/>
+  <text x="891" y="550" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#9eb0a2">Food &amp; drink</text>
+  <text x="1096" y="550" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="10" font-weight="700" fill="#edf3ec">38%</text>
+  <rect x="874" y="564" width="9" height="9" rx="2" fill="#a9e2be"/>
+  <text x="891" y="572" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#9eb0a2">Transport</text>
+  <text x="1096" y="572" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="10" font-weight="700" fill="#edf3ec">24%</text>
+  <rect x="874" y="586" width="9" height="9" rx="2" fill="#d9b46a"/>
+  <text x="891" y="594" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#9eb0a2">Everything else</text>
+  <text x="1096" y="594" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="10" font-weight="700" fill="#edf3ec">38%</text>
+
+  <text x="312" y="638" font-family="Georgia, serif" font-size="20" font-weight="700" fill="#edf3ec">Recent activity</text>
+  <text x="1112" y="636" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#a9e2be">View all</text>
+  <rect x="312" y="660" width="800" height="60" rx="12" fill="#15211a"/>
+  <rect x="326" y="674" width="32" height="32" rx="9" fill="#24352b"/>
+  <text x="342" y="695" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#a9e2be">B</text>
+  <text x="374" y="686" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#edf3ec">Bolt ride</text>
+  <text x="374" y="703" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#7d9183">Today - Transport</text>
+  <text x="1096" y="692" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#ff9b76">-&#8358;2,400</text>
+</svg>
