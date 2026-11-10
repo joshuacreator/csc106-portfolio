@@ -1,5 +1,5 @@
 /* =========================================================
-   Joshua Cole — Student Portfolio
+   Joshua Ewaoche — Student Portfolio
    Shared stylesheet
    ========================================================= */
 
@@ -1859,6 +1859,12 @@ table {
   color: var(--ink-muted);
 }
 
+.education-table td span span {
+  display: inline;
+  font-size: inherit;
+  color: inherit;
+}
+
 .result-pill,
 .education-table td .result-pill {
   display: inline-block;
@@ -2323,6 +2329,24 @@ table {
 
 .project-card-footer a svg {
   flex: none;
+}
+
+.project-private {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--forest);
+}
+
+.project-note {
+  margin-top: 1.5rem;
+  padding: 1rem 1.25rem;
+  border: 1px dashed var(--line-strong);
+  border-radius: var(--radius-md);
+  font-size: 0.82rem;
+  color: var(--ink-soft);
 }
 
 .process-grid {
@@ -3229,6 +3253,10 @@ table {
     grid-template-columns: 1fr 1fr;
   }
 
+  .hobbies-grid--three .hobby-card:last-child {
+    grid-column: 1 / -1;
+  }
+
   .project-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -3409,6 +3437,14 @@ table {
     grid-column: auto;
   }
 
+  .hobbies-grid--three {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .hobbies-grid--three .hobby-card:last-child {
+    grid-column: auto;
+  }
+
   .project-featured {
     grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr);
   }
@@ -3459,6 +3495,139 @@ table {
 
   .contact-layout {
     grid-template-columns: 0.8fr 1.2fr;
+  }
+}
+
+.skip-link:visited,
+.footer-brand:visited,
+.btn--accent:visited,
+.btn--ghost-light:visited {
+  color: #fdfaf4;
+}
+
+.btn--primary:visited {
+  color: #f5efe4;
+}
+
+.brand:visited,
+.btn--outline:visited,
+.btn--light:visited,
+.contact-channel a:visited {
+  color: #1b241e;
+}
+
+.nav-list a:visited,
+.social-links a:visited,
+.project-card-footer a:visited {
+  color: #4c564e;
+}
+
+.nav-list a[aria-current="page"]:visited,
+.section-link:visited {
+  color: #b8512d;
+}
+
+.footer-nav a:visited,
+.footer-social a:visited {
+  color: rgba(245, 239, 228, 0.78);
+}
+
+.back-to-top:visited {
+  color: rgba(245, 239, 228, 0.72);
+}
+
+.brand:visited:hover,
+.btn--outline:visited:hover,
+.btn--light:visited:hover {
+  color: #1b241e;
+}
+
+.nav-list a:visited:hover,
+.social-links a:visited:hover {
+  color: #1b241e;
+}
+
+.section-link:visited:hover,
+.contact-channel a:visited:hover,
+.project-card-footer a:visited:hover {
+  color: #923d1f;
+}
+
+.footer-nav a:visited:hover,
+.footer-social a:visited:hover,
+.back-to-top:visited:hover {
+  color: #d8b26a;
+}
+
+@media (max-width: 760px) {
+  .table-scroll {
+    overflow: visible;
+  }
+
+  .education-table {
+    display: block;
+    min-width: 0;
+  }
+
+  .education-table caption {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .education-table thead {
+    display: none;
+  }
+
+  .education-table tbody,
+  .education-table tr,
+  .education-table td {
+    display: block;
+  }
+
+  .education-table tr {
+    padding: 1.15rem 1.25rem 1.25rem;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .education-table tbody tr:last-child {
+    border-bottom: 0;
+  }
+
+  .education-table td {
+    padding: 0;
+    border: 0;
+  }
+
+  .education-table td + td {
+    margin-top: 0.8rem;
+  }
+
+  .education-table td::before {
+    display: block;
+    margin-bottom: 0.25rem;
+    font-family: var(--font-mono);
+    font-size: 0.56rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-muted);
+  }
+
+  .education-table td:nth-child(1)::before {
+    content: "Qualification";
+  }
+
+  .education-table td:nth-child(2)::before {
+    content: "Institution";
+  }
+
+  .education-table td:nth-child(3)::before {
+    content: "Period";
+  }
+
+  .education-table td:nth-child(4)::before {
+    content: "Result";
   }
 }
 

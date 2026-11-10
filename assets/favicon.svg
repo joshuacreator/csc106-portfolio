@@ -1,5 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Joshua Cole monogram">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Joshua Ewaoche monogram">
   <rect width="64" height="64" rx="14" fill="#17211b"/>
-  <path d="M45 20.5c-2.6-2.4-6-3.7-9.9-3.7-7.6 0-13.3 5.6-13.3 14.8 0 9.3 5.4 14.9 13.5 14.9 4 0 7.7-1.5 10.4-4.2" fill="none" stroke="#f3ede1" stroke-width="5" stroke-linecap="round"/>
-  <path d="M48.5 17.5v29" stroke="#c05a32" stroke-width="5" stroke-linecap="round"/>
+  <path d="M25 18v20.5c0 4.2-2.8 6.5-6.3 6.5-3 0-5.2-1.5-6.2-4" fill="none" stroke="#f3ede1" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M37 18h12M37 18v26h13M37 31h10" fill="none" stroke="#f3ede1" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M43 48.5h9" stroke="#c05a32" stroke-width="3.4" stroke-linecap="round"/>
 </svg>

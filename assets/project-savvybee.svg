@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" role="img" aria-labelledby="savvyTitle savvyDesc">
+  <title id="savvyTitle">Savvy Bee finance and education app concept visual</title>
+  <desc id="savvyDesc">A concept composition for a finance and education mobile app, showing a phone with a balance card, learning progress, and secure payment features.</desc>
+  <defs>
+    <linearGradient id="savvyBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f2c15d"/>
+      <stop offset="1" stop-color="#df9b2f"/>
+    </linearGradient>
+    <linearGradient id="savvyScreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1f3d2e"/>
+      <stop offset="1" stop-color="#152c21"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="780" fill="url(#savvyBg)"/>
+  <circle cx="1030" cy="100" r="230" fill="#f7e8bb" opacity="0.32"/>
+  <circle cx="1110" cy="700" r="270" fill="#173b2b" opacity="0.08"/>
+  <path d="M0 650C210 600 330 690 560 630s430-30 640-120v270H0Z" fill="#173b2b" opacity="0.08"/>
+
+  <text x="80" y="118" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2.6" fill="#173b2b">FINANCE &amp; EDUCATION · 2025—2026</text>
+  <text x="80" y="246" font-family="Georgia, serif" font-size="92" font-weight="700" fill="#173b2b">Savvy</text>
+  <text x="80" y="336" font-family="Georgia, serif" font-size="92" font-weight="700" font-style="italic" fill="#7a3e1d">Bee</text>
+  <text x="84" y="398" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#3f4f3a">A finance and education app,</text>
+  <text x="84" y="428" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#3f4f3a">from the first screen to the store release.</text>
+
+  <g font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="700">
+    <rect x="82" y="474" width="152" height="38" rx="19" fill="#173b2b"/>
+    <text x="158" y="498" text-anchor="middle" fill="#f7efe0">SECURE PAYMENTS</text>
+    <rect x="246" y="474" width="160" height="38" rx="19" fill="#f7efe0" opacity="0.65"/>
+    <text x="326" y="498" text-anchor="middle" fill="#173b2b">BANK CONNECTIONS</text>
+    <rect x="418" y="474" width="178" height="38" rx="19" fill="#f7efe0" opacity="0.65"/>
+    <text x="507" y="498" text-anchor="middle" fill="#173b2b">NIN / BVN CHECKS</text>
+  </g>
+
+  <g>
+    <rect x="755" y="92" width="340" height="610" rx="46" fill="#173b2b"/>
+    <rect x="768" y="105" width="314" height="584" rx="36" fill="url(#savvyScreen)"/>
+    <rect x="886" y="118" width="78" height="8" rx="4" fill="#456252"/>
+    <text x="800" y="146" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#9db5a3">9:41</text>
+    <text x="795" y="184" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#b9cbb9">Good morning</text>
+    <text x="795" y="208" font-family="Georgia, serif" font-size="22" font-weight="700" fill="#f7efe0">Joshua</text>
+    <circle cx="1048" cy="186" r="17" fill="#f2c15d"/>
+    <text x="1048" y="192" text-anchor="middle" font-family="Georgia, serif" font-size="15" font-weight="700" fill="#173b2b">JE</text>
+
+    <rect x="792" y="236" width="266" height="130" rx="20" fill="#f2c15d"/>
+    <text x="814" y="266" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.4" fill="#5f4217">TOTAL BALANCE</text>
+    <text x="814" y="307" font-family="Georgia, serif" font-size="34" font-weight="700" fill="#173b2b">₦248,500</text>
+    <text x="814" y="334" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6f511f">Savings + learning wallet</text>
+    <rect x="814" y="346" width="74" height="6" rx="3" fill="#173b2b" opacity="0.22"/>
+    <rect x="814" y="346" width="48" height="6" rx="3" fill="#173b2b"/>
+
+    <rect x="792" y="386" width="130" height="104" rx="18" fill="#294737"/>
+    <circle cx="817" cy="414" r="11" fill="#7fae86"/>
+    <path d="M812 414l4 4 7-8" fill="none" stroke="#173b2b" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="808" y="442" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#a9c0ad">PAID THIS WEEK</text>
+    <text x="808" y="467" font-family="Georgia, serif" font-size="22" font-weight="700" fill="#f7efe0">₦32,000</text>
+
+    <rect x="934" y="386" width="124" height="104" rx="18" fill="#294737"/>
+    <text x="950" y="416" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#a9c0ad">LEARNING</text>
+    <text x="950" y="450" font-family="Georgia, serif" font-size="30" font-weight="700" fill="#f2c15d">72%</text>
+    <rect x="950" y="464" width="92" height="6" rx="3" fill="#3d5a48"/>
+    <rect x="950" y="464" width="66" height="6" rx="3" fill="#f2c15d"/>
+
+    <text x="792" y="526" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.5" fill="#9db5a3">RECENT ACTIVITY</text>
+    <circle cx="806" cy="558" r="14" fill="#f7efe0" opacity="0.12"/>
+    <text x="806" y="563" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#f7efe0">↗</text>
+    <text x="832" y="555" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#f7efe0">Course payment</text>
+    <text x="832" y="572" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#8fa994">Today · 08:12</text>
+    <text x="1050" y="563" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#f2c15d">−₦12,500</text>
+
+    <circle cx="806" cy="608" r="14" fill="#f7efe0" opacity="0.12"/>
+    <text x="806" y="613" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#f7efe0">✓</text>
+    <text x="832" y="605" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#f7efe0">Identity verified</text>
+    <text x="832" y="622" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#8fa994">NIN check complete</text>
+    <text x="1050" y="613" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#7fae86">SECURE</text>
+
+    <rect x="792" y="648" width="266" height="28" rx="14" fill="#f7efe0" opacity="0.12"/>
+    <rect x="980" y="654" width="70" height="16" rx="8" fill="#f2c15d"/>
+  </g>
+
+  <text x="80" y="702" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2" fill="#173b2b">LAUNCHED ON THE APP STORE &amp; GOOGLE PLAY</text>
+</svg>

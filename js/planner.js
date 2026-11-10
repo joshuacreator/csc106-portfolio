@@ -126,7 +126,7 @@
     return [
       {
         id: uid(),
-        title: "Polish the StudySync empty states",
+        title: "Polish the planner's empty states",
         course: "CSC 404",
         due: shiftedDate(0),
         priority: "high",

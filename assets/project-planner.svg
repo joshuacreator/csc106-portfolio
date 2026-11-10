@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" role="img" aria-labelledby="studyTitle studyDesc">
-  <title id="studyTitle">StudySync planner dashboard screenshot</title>
+  <title id="studyTitle">CSC 106 Academic Planner dashboard preview</title>
   <desc id="studyDesc">A study planner interface with a dark green sidebar, a weekly progress ring, and a list of upcoming academic tasks.</desc>
   <rect width="1200" height="780" fill="#ded4c2"/>
   <rect x="56" y="46" width="1088" height="700" rx="22" fill="#f8f3e9"/>
@@ -8,12 +8,12 @@
   <circle cx="106" cy="73" r="6" fill="#d9b46a"/>
   <circle cx="126" cy="73" r="6" fill="#7c967f"/>
   <rect x="500" y="63" width="200" height="20" rx="10" fill="#e3dac8"/>
-  <text x="600" y="78" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8b8171">studysync.app/dashboard</text>
+  <text x="600" y="78" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8b8171">Academic Planner · CSC 106</text>
 
   <rect x="56" y="102" width="264" height="644" fill="#1b2a21"/>
   <rect x="88" y="136" width="38" height="38" rx="10" fill="#e7ddc9"/>
-  <text x="107" y="162" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="700" fill="#1b2a21">S</text>
-  <text x="140" y="161" font-family="Georgia, serif" font-size="23" font-weight="700" fill="#f3ede1">StudySync</text>
+  <text x="107" y="160" text-anchor="middle" font-family="Georgia, serif" font-size="15" font-weight="700" fill="#1b2a21">AP</text>
+  <text x="140" y="161" font-family="Georgia, serif" font-size="18" font-weight="700" fill="#f3ede1">Academic Planner</text>
 
   <rect x="82" y="216" width="212" height="46" rx="10" fill="#304636"/>
   <rect x="100" y="232" width="14" height="14" rx="3" fill="none" stroke="#d8e5d9" stroke-width="2"/>
@@ -30,7 +30,7 @@
   <rect x="100" y="684" width="176" height="6" rx="3" fill="#3d5343"/>
   <rect x="100" y="684" width="122" height="6" rx="3" fill="#c9dcb9"/>
 
-  <text x="364" y="162" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="2" fill="#897e6b">MONDAY, 12 OCTOBER</text>
+  <text x="364" y="162" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="2" fill="#897e6b">MONDAY, 9 NOVEMBER</text>
   <text x="364" y="202" font-family="Georgia, serif" font-size="34" font-weight="700" fill="#1b2a21">Good morning, Joshua.</text>
   <text x="364" y="230" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6d6455">Three tasks and one deadline stand between you and a clear week.</text>
 
@@ -82,7 +82,7 @@
 
   <rect x="364" y="564" width="752" height="72" rx="12" fill="#fdfaf4" stroke="#e7ddc9"/>
   <rect x="382" y="586" width="28" height="28" rx="8" fill="none" stroke="#c9bda9" stroke-width="2"/>
-  <text x="426" y="601" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#1b2a21">Draft UI review for StudySync</text>
+  <text x="426" y="601" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#1b2a21">Draft UI review for the planner</text>
   <text x="426" y="620" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8b8171">CSC 404 - HCI - 5:30 PM</text>
   <rect x="994" y="586" width="102" height="26" rx="13" fill="#f0e0d5"/>
   <text x="1045" y="603" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" font-weight="700" fill="#a34b28">HIGH</text>

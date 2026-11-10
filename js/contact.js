@@ -86,8 +86,10 @@
     attempted = false;
   }
 
-  function buildSuccess(name, email) {
+  function buildSuccess(name, email, message, phone) {
     const firstName = name.trim().split(/\s+/)[0] || "there";
+    const subject = `Portfolio enquiry from ${name.trim()}`;
+    const body = `${message.trim()}\n\nFrom: ${name.trim()} <${email.trim()}>\nPhone: ${phone.trim()}`;
 
     const panel = document.createElement("div");
     panel.className = "form-success";
@@ -101,15 +103,20 @@
     const heading = document.createElement("h3");
     heading.id = "form-success-title";
     heading.tabIndex = -1;
-    heading.textContent = "Message received";
+    heading.textContent = "Message ready";
 
     const copy = document.createElement("p");
-    copy.textContent = `Thanks, ${firstName}. Your message has been sent — I'll reply to ${email.trim()} within one working day.`;
+    copy.textContent = `Thanks, ${firstName}. This site cannot send email on its own, so open your email app to finish sending. I'll reply to ${email.trim()} within one working day.`;
+
+    const mailto = document.createElement("a");
+    mailto.className = "btn btn--primary btn--sm";
+    mailto.href = `mailto:joshuae0001@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    mailto.textContent = "Open email app";
 
     const reset = document.createElement("button");
     reset.type = "button";
     reset.className = "btn btn--outline btn--sm";
-    reset.textContent = "Send another message";
+    reset.textContent = "Write another message";
     reset.addEventListener("click", () => {
       form.hidden = false;
       statusBox.replaceChildren();
@@ -118,16 +125,16 @@
       fields.name.input.focus();
     });
 
-    panel.append(icon, heading, copy, reset);
+    panel.append(icon, heading, copy, mailto, reset);
     return { panel, heading };
   }
 
-  function showSuccess(name, email) {
+  function showSuccess(name, email, message, phone) {
     form.reset();
     updateMessageCount();
     form.hidden = true;
 
-    const success = buildSuccess(name, email);
+    const success = buildSuccess(name, email, message, phone);
     statusBox.replaceChildren(success.panel);
     success.heading.focus();
   }
@@ -163,7 +170,7 @@
       return;
     }
 
-    showSuccess(fields.name.input.value, fields.email.input.value);
+    showSuccess(fields.name.input.value, fields.email.input.value, fields.message.input.value, fields.phone.input.value);
   });
 
   updateMessageCount();

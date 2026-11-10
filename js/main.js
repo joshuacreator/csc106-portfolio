@@ -61,4 +61,43 @@
   document.querySelectorAll("[data-year]").forEach((node) => {
     node.textContent = String(new Date().getFullYear());
   });
+
+  const studentStart = document.body.dataset.studentStart;
+  if (studentStart) {
+    const [startYear, startMonth] = studentStart.split("-").map(Number);
+    const programYears = Number(document.body.dataset.programYears) || 4;
+    const now = new Date();
+    const monthsSinceStart = (now.getFullYear() - startYear) * 12 + (now.getMonth() + 1 - startMonth);
+    const elapsedYears = Math.floor(monthsSinceStart / 12);
+    const graduationYear = startYear + programYears;
+    let level = "Incoming";
+
+    if (monthsSinceStart >= programYears * 12) {
+      level = "Graduated";
+    } else if (monthsSinceStart >= 0) {
+      level = `Year ${elapsedYears + 1}`;
+    }
+
+    document.querySelectorAll("[data-student-level]").forEach((node) => {
+      node.textContent = level;
+    });
+    document.querySelectorAll("[data-graduation-year]").forEach((node) => {
+      node.textContent = String(graduationYear);
+    });
+    document.querySelectorAll("[data-graduation-class]").forEach((node) => {
+      node.textContent = `Class of ${graduationYear}`;
+    });
+    document.querySelectorAll("[data-student-stage]").forEach((node) => {
+      node.textContent = level === "Graduated"
+        ? `Graduated · Class of ${graduationYear}`
+        : `${level} · Class of ${graduationYear}`;
+    });
+  }
+
+  document.querySelectorAll("[data-current-month]").forEach((node) => {
+    node.textContent = new Intl.DateTimeFormat("en-GB", {
+      month: "long",
+      year: "numeric",
+    }).format(new Date());
+  });
 })();
